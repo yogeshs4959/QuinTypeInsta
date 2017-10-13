@@ -1,0 +1,132 @@
+{
+  "usersList": [
+    {
+      "name": "Dhanya Kumar",
+      "id": "8348732403942",
+      "username": "dhanya_kumar",
+      "profileImage": "profile1",
+      "Stories" : [
+        {
+          "type": "Image",
+          "storyFileName": "story1",
+          "uploadedDate" : "2017-10-02 10:15:45"
+        },
+        {
+          "type": "Image",
+          "storyFileName": "story2",
+          "uploadedDate" : "2017-10-02 10:15:45"
+        },
+        {
+          "type": "Video",
+          "storyFileName": "668875033",
+          "uploadedDate" : "2017-10-02 10:15:45"
+        },
+        {
+          "type": "Image",
+          "storyFileName": "story3",
+          "uploadedDate" : "2017-10-02 10:15:45"
+        }
+        ]
+    },
+    {
+      "name": "Vishwanath BM",
+      "id": "382794629149",
+      "username": "vishu_b_m",
+      "profileImage": "profile2",
+      "Stories": [
+        {
+          "type": "Video",
+          "storyFileName": "796814662",
+          "uploadedDate" : "2017-10-02 10:15:45"
+        },
+        {
+          "type": "Video",
+          "storyFileName": "giphy",
+          "uploadedDate" : "2017-10-02 10:15:45"
+        },
+        {
+          "type": "Image",
+          "storyFileName": "story4",
+          "uploadedDate" : "2017-10-02 10:15:45"
+        }
+        ]
+    },
+    {
+      "name": "Salena Johnson",
+      "id": "832791349729",
+      "username": "salena45",
+      "profileImage": "profile3",
+      "Stories" : [
+        {
+          "type": "Image",
+          "storyFileName": "story5",
+          "uploadedDate" : "2017-10-02 10:15:45"
+        },
+        {
+          "type": "Image",
+          "storyFileName": "story6",
+          "uploadedDate" : "2017-10-02 10:15:45"
+        }
+        ]
+    },
+    {
+      "name": "Neil Patel",
+      "id": "324234723832",
+      "username": "neil",
+      "profileImage": "profile4",
+      "Stories" : [
+        {
+          "type": "Video",
+          "storyFileName": "open_sign",
+          "uploadedDate" : "2017-10-02 10:15:45"
+        },
+        {
+          "type": "Video",
+          "storyFileName": "output 3",
+          "uploadedDate" : "2017-10-02 10:15:45"
+        }
+        ]
+    },
+    {
+      "name": "Rita Mathew",
+      "id": "38472973497",
+      "username": "mathewrita",
+      "profileImage": "profile5",
+      "Stories" : [
+        {
+          "type": "Image",
+          "storyFileName": "story7",
+          "uploadedDate" : "2017-10-02 10:15:45"
+        },
+        {
+          "type": "Image",
+          "storyFileName": "story8",
+          "uploadedDate" : "2017-10-02 10:15:45"
+        }
+        ]
+    },
+    {
+      "name": "William James",
+      "id": "384278389792",
+      "username": "james123",
+      "profileImage": "profile6",
+      "Stories" : [
+        {
+          "type": "Video",
+          "storyFileName": "output",
+          "uploadedDate" : "2017-10-02 10:15:45"
+        },
+        {
+          "type": "Image",
+          "storyFileName": "story9",
+          "uploadedDate" : "2017-10-02 10:15:45"
+        },{
+          "type": "Video",
+          "storyFileName": "output2",
+          "uploadedDate" : "2017-10-02 10:15:45"
+        }
+        ]
+    }
+    
+  ]
+}
