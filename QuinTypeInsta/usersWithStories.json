@@ -7,21 +7,25 @@
       "profileImage": "profile1",
       "Stories" : [
         {
+          "storyId": "kln2314l314",
           "type": "Image",
           "storyFileName": "story1",
           "uploadedDate" : "2017-10-02 10:15:45"
         },
         {
+          "storyId": "edn23dsf1dsf4",
           "type": "Image",
           "storyFileName": "story2",
           "uploadedDate" : "2017-10-02 10:15:45"
         },
         {
+          "storyId": "ken732924l314",
           "type": "Video",
           "storyFileName": "668875033",
           "uploadedDate" : "2017-10-02 10:15:45"
         },
         {
+          "storyId": "e324jl23l2j",
           "type": "Image",
           "storyFileName": "story3",
           "uploadedDate" : "2017-10-02 10:15:45"
@@ -35,16 +39,19 @@
       "profileImage": "profile2",
       "Stories": [
         {
+          "storyId": "jln231l3e32q",
           "type": "Video",
           "storyFileName": "796814662",
           "uploadedDate" : "2017-10-02 10:15:45"
         },
         {
+          "storyId": "eln231qdasd",
           "type": "Video",
           "storyFileName": "giphy",
           "uploadedDate" : "2017-10-02 10:15:45"
         },
         {
+          "storyId": "dsk32092e02",
           "type": "Image",
           "storyFileName": "story4",
           "uploadedDate" : "2017-10-02 10:15:45"
@@ -58,11 +65,13 @@
       "profileImage": "profile3",
       "Stories" : [
         {
+          "storyId": "ewfqwr42424",
           "type": "Image",
           "storyFileName": "story5",
           "uploadedDate" : "2017-10-02 10:15:45"
         },
         {
+          "storyId": "2313i90i2qd",
           "type": "Image",
           "storyFileName": "story6",
           "uploadedDate" : "2017-10-02 10:15:45"
@@ -76,11 +85,13 @@
       "profileImage": "profile4",
       "Stories" : [
         {
+          "storyId": "djs8923234",
           "type": "Video",
           "storyFileName": "open_sign",
           "uploadedDate" : "2017-10-02 10:15:45"
         },
         {
+          "storyId": "dsak23020332",
           "type": "Video",
           "storyFileName": "output 3",
           "uploadedDate" : "2017-10-02 10:15:45"
@@ -94,11 +105,13 @@
       "profileImage": "profile5",
       "Stories" : [
         {
+          "storyId": "j2132h1k1k22",
           "type": "Image",
           "storyFileName": "story7",
           "uploadedDate" : "2017-10-02 10:15:45"
         },
         {
+          "storyId": "kekajqr313121",
           "type": "Image",
           "storyFileName": "story8",
           "uploadedDate" : "2017-10-02 10:15:45"
@@ -112,21 +125,24 @@
       "profileImage": "profile6",
       "Stories" : [
         {
+          "storyId": "329qdasdcsa",
           "type": "Video",
           "storyFileName": "output",
           "uploadedDate" : "2017-10-02 10:15:45"
         },
         {
+          "storyId": "12eqdasl213j",
           "type": "Image",
           "storyFileName": "story9",
           "uploadedDate" : "2017-10-02 10:15:45"
-        },{
+        },
+        {
+          "storyId": "s32dsd2322",
           "type": "Video",
           "storyFileName": "output2",
           "uploadedDate" : "2017-10-02 10:15:45"
         }
         ]
     }
-    
   ]
 }
