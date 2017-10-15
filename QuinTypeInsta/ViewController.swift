@@ -13,7 +13,9 @@ import AVFoundation
 class ViewController: UIViewController {
     
     var usersArray: [User] = [User]()
+    var selectedUserIndex: Int = 0
     var picker:UIImagePickerController?=UIImagePickerController()
+    
     @IBOutlet var collectionView: UICollectionView!
     
     override func viewDidLoad() {
@@ -24,40 +26,24 @@ class ViewController: UIViewController {
         picker?.delegate = self as? UIImagePickerControllerDelegate & UINavigationControllerDelegate
         fetchDataFromLocalJson()
     }
-
+    
     @IBAction func btnClickCamera(_ sender: Any) {
         openCamera()
     }
     
     
     func fetchDataFromLocalJson() {
-       let dict = NetworkManager.getJsonDictionaryFromFile(fileName: "usersWithStories")
-       usersArray =  DataManager.parseJsonDictionary(dict: dict)
-       collectionView.reloadData()
+        let dict = NetworkManager.getJsonDictionaryFromFile(fileName: "usersWithStories")
+        usersArray =  DataManager.parseJsonDictionary(dict: dict)
+        self.collectionView.reloadData()
     }
     
-    func playMe() {
-        guard let path = Bundle.main.path(forResource: "giphy", ofType:"mp4") else {
-            debugPrint("video.m4v not found")
-            return
-        }
-        let url = URL.init(fileURLWithPath: path)
-        
-        let player = AVPlayer(url: url)
-        let playerLayer = AVPlayerLayer(player: player)
-        playerLayer.frame = self.view.bounds
-        self.view.layer.addSublayer(playerLayer)
-        player.play()
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let vc:StoriesViewController = segue.destination as! StoriesViewController
+        vc.usersArray = self.usersArray
+        vc.selectedUser = selectedUserIndex
     }
     
-    func ShowAlert(title:String, messsage: String) {
-        let alertView = UIAlertController(title: title, message: messsage, preferredStyle: .alert)
-        let action = UIAlertAction(title: "OK", style: .default, handler: { (alert) in
-        })
-        alertView.addAction(action)
-        self.present(alertView, animated: true, completion: nil)
-    }
-
 }
 
 extension ViewController : UICollectionViewDelegate, UICollectionViewDataSource {
@@ -92,12 +78,15 @@ extension ViewController : UICollectionViewDelegate, UICollectionViewDataSource 
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         if indexPath.row == 0 {
             openGallary()
+        } else {
+            selectedUserIndex = indexPath.row-1
+            performSegue(withIdentifier: "toStoriesVcFromVc", sender: self)
         }
     }
 }
 
 extension ViewController : UIPickerViewDelegate, UIPopoverControllerDelegate,UINavigationControllerDelegate {
-
+    
     func openGallary() {
         picker!.allowsEditing = false
         picker!.sourceType = UIImagePickerControllerSourceType.photoLibrary
@@ -117,7 +106,7 @@ extension ViewController : UIPickerViewDelegate, UIPopoverControllerDelegate,UIN
             present(alert, animated: true, completion: nil)
         }
     }
-
+    
     func imagePickerControllerDidCancel(picker: UIImagePickerController) {
         dismiss(animated: true, completion: nil)
     }

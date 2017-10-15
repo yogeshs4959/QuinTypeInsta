@@ -9,7 +9,8 @@
 import UIKit
 
 class VideoStoryCollectionViewCell: UICollectionViewCell {
-
+    @IBOutlet var videoStoryView: UIView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6812EB001F939EDC00F6A1B5 /* StatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6812EAFF1F939EDC00F6A1B5 /* StatusView.swift */; };
 		687749D81F90CF2C00479CC0 /* usersWithStories.json in Resources */ = {isa = PBXBuildFile; fileRef = 68DCEE6F1F90A7A500CF0747 /* usersWithStories.json */; };
 		687749DB1F90DEDA00479CC0 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687749DA1F90DEDA00479CC0 /* NetworkManager.swift */; };
 		687749DD1F90E33D00479CC0 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 687749DC1F90E33D00479CC0 /* DataManager.swift */; };
@@ -18,6 +19,11 @@
 		689792E01F8FCC37005F5DE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 689792DE1F8FCC37005F5DE2 /* LaunchScreen.storyboard */; };
 		68A3E0BE1F92486A00E9D5EA /* UserProfileCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A3E0BC1F92486A00E9D5EA /* UserProfileCollectionViewCell.swift */; };
 		68A3E0BF1F92486A00E9D5EA /* UserProfileCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68A3E0BD1F92486A00E9D5EA /* UserProfileCollectionViewCell.xib */; };
+		68A3E0C11F9276D600E9D5EA /* StoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68A3E0C01F9276D600E9D5EA /* StoriesViewController.swift */; };
+		68DB18871F9330B7005C6888 /* ImageStoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DB18851F9330B7005C6888 /* ImageStoryCollectionViewCell.swift */; };
+		68DB18881F9330B7005C6888 /* ImageStoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68DB18861F9330B7005C6888 /* ImageStoryCollectionViewCell.xib */; };
+		68DB188B1F9330D3005C6888 /* VideoStoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68DB18891F9330D3005C6888 /* VideoStoryCollectionViewCell.swift */; };
+		68DB188C1F9330D3005C6888 /* VideoStoryCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68DB188A1F9330D3005C6888 /* VideoStoryCollectionViewCell.xib */; };
 		68DCEE681F9093E200CF0747 /* 668875033.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 68DCEE641F9093D400CF0747 /* 668875033.mp4 */; };
 		68DCEE691F9093E200CF0747 /* 796814662.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 68DCEE611F9093D300CF0747 /* 796814662.mp4 */; };
 		68DCEE6A1F9093E200CF0747 /* giphy.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 68DCEE671F9093D500CF0747 /* giphy.mp4 */; };
@@ -30,6 +36,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6812EAFF1F939EDC00F6A1B5 /* StatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusView.swift; sourceTree = "<group>"; };
 		687749DA1F90DEDA00479CC0 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		687749DC1F90E33D00479CC0 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		689792CF1F8FCC37005F5DE2 /* QuinTypeInsta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuinTypeInsta.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -42,6 +49,11 @@
 		689792E11F8FCC37005F5DE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68A3E0BC1F92486A00E9D5EA /* UserProfileCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileCollectionViewCell.swift; sourceTree = "<group>"; };
 		68A3E0BD1F92486A00E9D5EA /* UserProfileCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserProfileCollectionViewCell.xib; sourceTree = "<group>"; };
+		68A3E0C01F9276D600E9D5EA /* StoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoriesViewController.swift; sourceTree = "<group>"; };
+		68DB18851F9330B7005C6888 /* ImageStoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageStoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		68DB18861F9330B7005C6888 /* ImageStoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageStoryCollectionViewCell.xib; sourceTree = "<group>"; };
+		68DB18891F9330D3005C6888 /* VideoStoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoStoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		68DB188A1F9330D3005C6888 /* VideoStoryCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoStoryCollectionViewCell.xib; sourceTree = "<group>"; };
 		68DCEE611F9093D300CF0747 /* 796814662.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 796814662.mp4; sourceTree = "<group>"; };
 		68DCEE621F9093D300CF0747 /* output.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = output.mp4; sourceTree = "<group>"; };
 		68DCEE631F9093D400CF0747 /* open_sign.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = open_sign.mp4; sourceTree = "<group>"; };
@@ -98,8 +110,10 @@
 				68DCEE701F90ADD100CF0747 /* DataModel */,
 				68DCEE601F9093B400CF0747 /* Videos */,
 				689792D21F8FCC37005F5DE2 /* AppDelegate.swift */,
+				6812EAFF1F939EDC00F6A1B5 /* StatusView.swift */,
 				68DCEE6F1F90A7A500CF0747 /* usersWithStories.json */,
 				689792D41F8FCC37005F5DE2 /* ViewController.swift */,
+				68A3E0C01F9276D600E9D5EA /* StoriesViewController.swift */,
 				689792D61F8FCC37005F5DE2 /* Main.storyboard */,
 				689792DC1F8FCC37005F5DE2 /* Assets.xcassets */,
 				689792DE1F8FCC37005F5DE2 /* LaunchScreen.storyboard */,
@@ -114,6 +128,10 @@
 			children = (
 				68A3E0BC1F92486A00E9D5EA /* UserProfileCollectionViewCell.swift */,
 				68A3E0BD1F92486A00E9D5EA /* UserProfileCollectionViewCell.xib */,
+				68DB18851F9330B7005C6888 /* ImageStoryCollectionViewCell.swift */,
+				68DB18861F9330B7005C6888 /* ImageStoryCollectionViewCell.xib */,
+				68DB18891F9330D3005C6888 /* VideoStoryCollectionViewCell.swift */,
+				68DB188A1F9330D3005C6888 /* VideoStoryCollectionViewCell.xib */,
 			);
 			path = CollectionViewCells;
 			sourceTree = "<group>";
@@ -200,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68DB188C1F9330D3005C6888 /* VideoStoryCollectionViewCell.xib in Resources */,
 				687749D81F90CF2C00479CC0 /* usersWithStories.json in Resources */,
 				68DCEE681F9093E200CF0747 /* 668875033.mp4 in Resources */,
 				68DCEE691F9093E200CF0747 /* 796814662.mp4 in Resources */,
@@ -209,6 +228,7 @@
 				68DCEE6D1F9093E200CF0747 /* output.mp4 in Resources */,
 				68A3E0BF1F92486A00E9D5EA /* UserProfileCollectionViewCell.xib in Resources */,
 				68DCEE6E1F9093E200CF0747 /* output2.mp4 in Resources */,
+				68DB18881F9330B7005C6888 /* ImageStoryCollectionViewCell.xib in Resources */,
 				689792E01F8FCC37005F5DE2 /* LaunchScreen.storyboard in Resources */,
 				689792DD1F8FCC37005F5DE2 /* Assets.xcassets in Resources */,
 				689792D81F8FCC37005F5DE2 /* Main.storyboard in Resources */,
@@ -222,6 +242,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68DB188B1F9330D3005C6888 /* VideoStoryCollectionViewCell.swift in Sources */,
+				68A3E0C11F9276D600E9D5EA /* StoriesViewController.swift in Sources */,
+				6812EB001F939EDC00F6A1B5 /* StatusView.swift in Sources */,
 				68DCEE721F90AE0B00CF0747 /* User.swift in Sources */,
 				687749DB1F90DEDA00479CC0 /* NetworkManager.swift in Sources */,
 				689792D51F8FCC37005F5DE2 /* ViewController.swift in Sources */,
@@ -229,6 +252,7 @@
 				689792D31F8FCC37005F5DE2 /* AppDelegate.swift in Sources */,
 				68A3E0BE1F92486A00E9D5EA /* UserProfileCollectionViewCell.swift in Sources */,
 				689792DB1F8FCC37005F5DE2 /* QuinTypeInsta.xcdatamodeld in Sources */,
+				68DB18871F9330B7005C6888 /* ImageStoryCollectionViewCell.swift in Sources */,
 				68DCEE741F90AE2B00CF0747 /* Story.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

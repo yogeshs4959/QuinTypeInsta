@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Story {
+class Story {
     let storyId: String
     let storyType: String
     let storyFileName: String

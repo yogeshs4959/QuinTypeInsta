@@ -9,7 +9,8 @@
 import UIKit
 
 class ImageStoryCollectionViewCell: UICollectionViewCell {
-
+    @IBOutlet var ImgStoryView: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
