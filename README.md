@@ -24,7 +24,7 @@
      user it will go back to Main Screen.
    * User Interaction to collectionView is disabled (Changing Stories with user interaction is not implemented).
 
-Note: Video Status Bar is for 15 seconds But If video is of 10 seconds after 10 seconds It will show Black screen. Need to play video using loop.
+Note: Video Status Bar is for 15 seconds But If video is of 10 seconds after 10 seconds It will show Black screen. Need to play video using loop. Can be Solved using Notification Center.
 
 
 
